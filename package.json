@@ -11,10 +11,11 @@
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.3",
     "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.2",
     "web-vitals": "^1.1.0"
   },
-  "scripts": {    
+  "scripts": {
     "start": "BROWSER=/opt/firefox/firefox  HTTPS=true SSL_CRT_FILE=/etc/mkcert/localhost.pem SSL_KEY_FILE=/etc/mkcert/localhost-key.pem react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
